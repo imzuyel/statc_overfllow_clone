@@ -1,0 +1,78 @@
+a {
+    text-decoration: none !important;
+    color: none;
+}
+
+.counters {
+    margin-right: 30px;
+    font-size: 10px;
+    text-align: center;
+
+}
+
+.counters strong {
+    font-size: 2em;
+    display: block;
+}
+
+.status {
+    height: 60px;
+    width: 60px;
+}
+
+.status.unanswered {
+    border: none;
+}
+
+.status.answered {
+    border: 1px solid green;
+    color: green;
+}
+
+.status.answered-accepted {
+    background-color: green;
+    color: white;
+}
+
+.views {
+    margin-top: 10px;
+}
+
+.form-delete {
+    margin-left: 2px;
+}
+
+.vote-controll {
+    margin-right: 30px;
+    min-width: 60px;
+    text-align: center;
+    color: rgb(255, 255, 255) !important;
+}
+
+
+.vote-controll span,
+a {
+    display: block;
+}
+
+.vote-controll span.votes-count {
+    font-size: 25px;
+    color: rgb(138, 137, 137);
+}
+
+.none {
+    color: grey;
+}
+
+.accept {
+    color: #006600 !important;
+}
+
+.favourite_none {
+   color: gray;
+    font-size: 14px;
+}
+.favourite {
+    color: rgb(0, 250, 8) !important;
+    font-size: 14px;
+}
